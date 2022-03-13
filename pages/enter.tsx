@@ -6,4 +6,17 @@ const EnterPage = () => {
   )
 }
 
+const SignInButton = () => {
+
+}
+
+const SignOutButton = () => {
+  
+}
+
+const UsernameForm = () => {
+  
+}
+
+
 export default EnterPage
