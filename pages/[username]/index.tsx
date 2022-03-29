@@ -2,7 +2,7 @@ import PostFeed from "../../components/PostFeed";
 import UserProfile from "../../components/UserProfile";
 import { getUserWithUsername, postToJson } from "../../lib/firebase";
 
-const getServerSideProps = async ({ query }) => {
+export const getServerSideProps = async ({ query }) => {
   const { username } = query
 
   const userDoc = await getUserWithUsername(username)
